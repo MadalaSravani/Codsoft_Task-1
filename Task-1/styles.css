@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornsilk;
+}
+
+.name {
+    font-family: "Dancing Script", cursive;
+    margin: 10px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.menu a {
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+h3 {
+    padding: 10px 20px;
+}
+
+.me {
+    font-style: italic;
+}
+
+.image {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: right;
+}
+
+.image img {
+    width: 150;
+    height: 100%;
+    margin-right: -100px;
+}
+
+.about-content {
+    margin: 100px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #2f98aa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 35px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.desc {
+    text-align: center;
+    padding-right: 100px;
+    margin: 10px;
+}
+
+.skills-content {
+    margin: 100px;
+    padding: 20px;
+}
+
+.lang {
+    list-style-type: none;
+    padding-left: 100px;
+    margin-left: 50px;
+}
+
+.result {
+    float: right;
+}
+
+.result img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: left;
+    padding: 20px;
+}
+
+.content {
+    text-align: justify;
+    padding-left: 50px;
+    text-wrap: wrap;
+}
+
+.contact {
+    padding-right: 20px;
+}
